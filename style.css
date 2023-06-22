@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bellota+Text:wght@300;400;700&family=Montserrat:wght@200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&family=Ubuntu:wght@400;500;700&family=Varela+Round&display=swap');
+html {
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+
+}
+body{
+    margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translate(0,25%);
+  background: #232225;
+}
+h1{
+  text-align: center;
+  font-size: 22px;
+}
+.container{
+  background: #222f3e;
+  width: min(84vw, 255px);
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 25px 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  box-shadow: 7px 8px 28px #1d1b1b, -10px -5px 28px #171717, inset 6px 6px 7px #1a232d, inset -6px -6px 7px #1a232d;
+}
+.row{
+  margin: 4px 0;
+}
+.row input{
+ width: 98%;
+ margin: 10px 0;
+ padding: 8px 0;
+ height: 20px;
+ font-size: 18px;
+}
+.row button{
+  width: min(18vw, 52px);
+  height: min(18vh, 50px);
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  user-select: none;
+}
